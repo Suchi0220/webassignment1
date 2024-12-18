@@ -1,0 +1,191 @@
+/* General Reset */
+body, h1, h2, p, ul, li, table, th, td {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    background: #4c63af;
+    color: white;
+    padding: 1rem 0;
+  }
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  .nav-links li {
+    margin: 0 15px;
+  }
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 2rem 1rem;
+    background: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+  }
+  .section:nth-child(even) {
+    background: #ffffff;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  h2 {
+    margin-bottom: 1rem;
+    color: #4c7aaf;
+  }
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  /* Resume List */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Biodata Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+  }
+  /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .resume-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+  }
+  
+  /* Left Section */
+  .left-section {
+    background-color: #d881bb;
+    color: rgb(0, 0, 0);
+    width: 35%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .profile-pic img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  
+  .left-section h1 {
+    margin: 15px 0;
+    font-size: 1.8em;
+    line-height: 1.2;
+  }
+  
+  .job-title {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .about, .contact, .language, .expertise {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .language ul, .expertise ul {
+    list-style: none;
+    margin: 10px 0;
+  }
+  
+  .language ul li, .expertise ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* Right Section */
+  .right-section {
+    width: 65%;
+    padding: 30px;
+  }
+  
+  .right-section h2 {
+    margin-bottom: 10px;
+    color: #1f2f46;
+    border-bottom: 2px solid #1f2f46;
+    display: inline-block;
+  }
+  
+  .job, .education p {
+    margin: 10px 0;
+  }
+  
+  .skills-summary {
+    margin-top: 20px;
+  }
+  
+  .skill {
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    background: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    background: #1f2f46;
+    height: 10px;
+  }
